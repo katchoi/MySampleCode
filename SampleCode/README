@@ -4,3 +4,5 @@ The usage is the following
 n m ... follow by n x m string values
 
 where n = number of rows and m = number of columns
+
+There are to spiral printers created, on print clockwise and the other print anti-clockwise
