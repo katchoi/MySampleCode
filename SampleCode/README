@@ -1,0 +1,6 @@
+The sample program is expecting input data from the command line arguments.
+The usage is the following
+
+n m ... follow by n x m string values
+
+where n = number of rows and m = number of columns
