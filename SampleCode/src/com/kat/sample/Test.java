@@ -26,6 +26,7 @@ public class Test {
 		}
 
 		Walker cw = new ClockwiseSpiralWalker(walkOn);
+		System.out.println("Clockwise Spiral Printing ....");
 	    try {
 	    	while (true) {
 	    		System.out.println(cw.valueAt());
@@ -37,6 +38,7 @@ public class Test {
 	    
 	    
 		Walker acw = new AntiClockwiseSpiralWalker(walkOn);
+		System.out.println("Anti-Clockwise Spiral Printing ....");
 	    try {
 	    	while (true) {
 	    		System.out.println(acw.valueAt());
