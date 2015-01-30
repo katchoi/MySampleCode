@@ -33,7 +33,7 @@ private String[][] walkOn;
 			step.moveTo(nextStep);					// move to next step
 		} catch (Border.EndOfTrailException e) {	// end of trail reached
 				direction = makeTurn();									// make a turn based on the current direction
-				step.setBorder(direction.border(step.getBorder()));		// update boarder
+				direction.border(step.getBorder());						// update boarder
 				nextStep = direction.step();							// setup new step value for new direction
 				step.moveTo(nextStep);									// move to next step
 		}
